@@ -29,6 +29,18 @@
     {
       "name": "Guides",
       "url": "introduction"
+    },
+    {
+      "name": "Integrations",
+      "url": "introduction"
+    },
+    {
+      "name": "Libraries",
+      "url": "introduction"
+    },
+    {
+      "name": "API reference",
+      "url": "api-reference"
     }
   ],
   "anchors": [
