@@ -48,6 +48,14 @@
       "url": "https://mintlify.com/blog"
     }
   ],
+  "navigation": [
+    {
+      "group": "Get started",
+      "pages": [
+        "introduction"
+      ]
+    }
+  ],
   "feedback": {
     "thumbsRating": true
   }
