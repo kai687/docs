@@ -126,11 +126,6 @@
         "url": "https://www.algolia.com/doc/guides/security/algolia-vault/",
         "description": "Related guide: Algolia Vault.\n"
       }
-    },
-    {
-      "name": "_model_index_settings",
-      "x-displayName": "Index settings",
-      "description": "<SchemaDefinition schemaRef=\"#/components/schemas/indexSettings\" />.\n"
     }
   ],
   "paths": {
@@ -11396,12 +11391,6 @@
         "Clusters",
         "Vaults",
         "Advanced"
-      ]
-    },
-    {
-      "name": "Models",
-      "tags": [
-        "_model_index_settings"
       ]
     }
   ]
