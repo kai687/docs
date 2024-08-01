@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://support.algolia.com/hc/en-us"
     }
   ],
   "topbarCtaButton": {
@@ -50,8 +50,7 @@
     },
     {
       "name": "API reference",
-      "url": "api-reference",
-      "openapi": "/search.doc.yml"
+      "url": "api-reference"
     }
   ],
   "navigation": [
@@ -60,9 +59,153 @@
       "pages": [
         "introduction"
       ]
+    },
+    {
+      "group": "Libraries",
+      "pages": [
+        "libraries/python"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/shopify"
+      ]
+    },
+    {
+      "group": "API reference",
+      "pages": [
+        "api-reference/overview",
+        {
+          "group": "Insights API",
+          "pages": [
+            "api-reference/insights-api/events/send-events",
+            "api-reference/insights-api/usertokens/delete-user-token"
+          ]
+        },
+        {
+          "group": "Search API",
+          "pages": [
+            {
+              "group": "Search operations",
+              "pages": [
+                "api-reference/search-api/search/search-an-index",
+                "api-reference/search-api/search/search-an-index",
+                "api-reference/search-api/search/search-multiple-indices",
+                "api-reference/search-api/search/search-for-facet-values",
+                "api-reference/search-api/search/browse-for-records"
+              ]
+            },
+            {
+              "group": "Records operations",
+              "pages": [
+                "api-reference/search-api/records/add-or-replace-a-record",
+                "api-reference/search-api/records/retrieve-a-record",
+                "api-reference/search-api/records/add-or-replace-a-record-1",
+                "api-reference/search-api/records/delete-a-record",
+                "api-reference/search-api/records/delete-records-matching-a-query",
+                "api-reference/search-api/records/delete-all-records-from-an-index",
+                "api-reference/search-api/records/add-or-update-attributes",
+                "api-reference/search-api/records/batch-indexing-operations-on-one-index",
+                "api-reference/search-api/records/batch-indexing-operations-on-multiple-indices",
+                "api-reference/search-api/records/retrieve-records"
+              ]
+            },
+            {
+              "group": "Indices operations",
+              "pages": [
+                "api-reference/search-api/indices/delete-an-index",
+                "api-reference/search-api/indices/retrieve-index-settings",
+                "api-reference/search-api/indices/update-index-settings",
+                "api-reference/search-api/indices/check-task-status",
+                "api-reference/search-api/indices/copy-or-move-an-index",
+                "api-reference/search-api/indices/list-indices"
+                ]
+            },
+            {
+              "group": "Synonyms operations",
+              "pages": [
+                "api-reference/search-api/synonyms/retrieve-a-synonym",
+                "api-reference/search-api/synonyms/create-or-replace-a-synonym",
+                "api-reference/search-api/synonyms/delete-a-synonym",
+                "api-reference/search-api/synonyms/create-or-replace-synonyms",
+                "api-reference/search-api/synonyms/delete-all-synonyms",
+                "api-reference/search-api/synonyms/search-for-synonyms"
+              ]
+            },
+            {
+              "group": "API keys operations",
+              "pages": [
+                "api-reference/search-api/api-keys/list-api-keys",
+                "api-reference/search-api/api-keys/create-an-api-key",
+                "api-reference/search-api/api-keys/retrieve-api-key-permissions",
+                "api-reference/search-api/api-keys/update-an-api-key",
+                "api-reference/search-api/api-keys/delete-an-api-key",
+                "api-reference/search-api/api-keys/restore-an-api-key"
+              ]
+            },
+            {
+              "group": "Rules operations",
+              "pages": [
+                "api-reference/search-api/rules/retrieve-a-rule",
+                "api-reference/search-api/rules/create-or-replace-a-rule",
+                "api-reference/search-api/rules/delete-a-rule",
+                "api-reference/search-api/rules/create-or-update-rules",
+                "api-reference/search-api/rules/delete-all-rules",
+                "api-reference/search-api/rules/search-for-rules"
+              ]
+            },
+            {
+              "group": "Dictionaries operations",
+              "pages": [
+                "api-reference/search-api/dictionaries/add-or-delete-dictionary-entries",
+                "api-reference/search-api/dictionaries/search-dictionary-entries",
+                "api-reference/search-api/dictionaries/retrieve-dictionary-settings",
+                "api-reference/search-api/dictionaries/update-dictionary-settings",
+                "api-reference/search-api/dictionaries/list-available-languages"
+              ]
+            },
+            {
+              "group": "Clusters operations",
+              "pages": [
+                "api-reference/search-api/clusters/list-user-ids",
+                "api-reference/search-api/clusters/assign-or-move-a-user-id",
+                "api-reference/search-api/clusters/assign-multiple-userids",
+                "api-reference/search-api/clusters/get-top-user-ids",
+                "api-reference/search-api/clusters/retrieve-user-id",
+                "api-reference/search-api/clusters/delete-user-id",
+                "api-reference/search-api/clusters/list-clusters",
+                "api-reference/search-api/clusters/search-for-user-ids",
+                "api-reference/search-api/clusters/get-migration-and-user-mapping-status"
+              ]
+            },
+            {
+              "group": "Vaults operations",
+              "pages": [
+                "api-reference/search-api/vaults/list-allowed-sources",
+                "api-reference/search-api/vaults/replace-allowed-sources",
+                "api-reference/search-api/vaults/add-a-source",
+                "api-reference/search-api/vaults/delete-a-source"
+              ]
+            },
+            {
+              "group": "Advanced operations",
+              "pages": [
+                "api-reference/search-api/advanced/retrieve-log-entries",
+                "api-reference/search-api/advanced/check-application-task-status"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "feedback": {
     "thumbsRating": true
+  },
+  "footerSocials": {
+    "website": "https://www.algolia.com/",
+    "x": "https://x.com/algolia",
+    "discord": "https://alg.li/discord"
   }
 }
