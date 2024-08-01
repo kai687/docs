@@ -25,13 +25,6 @@
     "name": "Dashboard",
     "url": "https://dashboard.algolia.com"
   },
-  "tabs": [
-    {
-      "name": "API reference",
-      "url": "api-reference",
-      "openapi": "/search.json"
-    }
-  ],
   "anchors": [
     {
       "name": "Community",
