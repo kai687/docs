@@ -29,7 +29,7 @@
     {
       "name": "API reference",
       "url": "api-reference",
-      "openapi": "/search.doc.yml"
+      "openapi": "search.doc.yml"
     }
   ],
   "anchors": [
