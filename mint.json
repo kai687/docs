@@ -25,11 +25,33 @@
     "name": "Dashboard",
     "url": "https://dashboard.algolia.com"
   },
+  "topAnchor": {
+    "name": "Home",
+    "icon": "book-open"
+  },
   "anchors": [
     {
       "name": "Community",
       "icon": "discord",
       "url": "https://www.algolia.com"
+    }
+  ],
+  "primaryTab": {
+    "name": "Guides"
+  },
+  "tabs": [
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    },
+    {
+      "name": "Libraries",
+      "url": "libraries"
+    },
+    {
+      "name": "API reference",
+      "url": "api-reference",
+      "openapi": "/search.doc.yml"
     }
   ],
   "navigation": [
