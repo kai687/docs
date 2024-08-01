@@ -27,18 +27,6 @@
   },
   "tabs": [
     {
-      "name": "Guides",
-      "url": "introduction"
-    },
-    {
-      "name": "Integrations",
-      "url": "introduction"
-    },
-    {
-      "name": "Libraries",
-      "url": "introduction"
-    },
-    {
       "name": "API reference",
       "url": "api-reference"
     }
@@ -55,6 +43,12 @@
       "group": "Get started",
       "pages": [
         "introduction"
+      ]
+    },
+    {
+      "group": "API reference",
+      "pages": [
+        "api-reference/introduction"
       ]
     }
   ],
