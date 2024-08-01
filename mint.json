@@ -28,7 +28,8 @@
   "tabs": [
     {
       "name": "API reference",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "/search.doc.yml"
     }
   ],
   "anchors": [
@@ -43,12 +44,6 @@
       "group": "Get started",
       "pages": [
         "introduction"
-      ]
-    },
-    {
-      "group": "API reference",
-      "pages": [
-        "api-reference/introduction"
       ]
     }
   ],
