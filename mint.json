@@ -57,9 +57,9 @@
     {
       "group": "Get started",
       "pages": [
-        "introduction",
+        "launchpad/get-started",
         {
-          "group": "launchpad/get-started",
+          "group": "Get Started with Launchpad",
           "pages": [
             "launchpad/import-data",
             "launchpad/design-results",
