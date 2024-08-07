@@ -58,9 +58,9 @@
       "group": "Get started",
       "pages": [
         "introduction",
-        "get-started-launchpad",
+        "launchpad/get-started-launchpad",
         {
-          "group": "Nested Reference Pages",
+          "group": "Launchpad",
           "pages": [
             "launchpad/launchpad-import-data",
             "launchpad/launchpad-design-results",
