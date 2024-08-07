@@ -62,9 +62,9 @@
         {
           "group": "Nested Reference Pages",
           "pages": [
-            "launchpad-import-data",
-            "launchpad-design-results",
-            "launchpad-searchable-attributes"
+            "launchpad/launchpad-import-data",
+            "launchpad/launchpad-design-results",
+            "launchpad/launchpad-searchable-attributes"
             ]
         }
       ]
