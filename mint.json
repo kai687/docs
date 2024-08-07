@@ -58,13 +58,14 @@
       "group": "Get started",
       "pages": [
         "introduction",
-        "launchpad/get-started-launchpad",
         {
-          "group": "Launchpad",
+          "group": "launchpad/get-started",
           "pages": [
-            "launchpad/launchpad-import-data",
-            "launchpad/launchpad-design-results",
-            "launchpad/launchpad-searchable-attributes"
+            "launchpad/import-data",
+            "launchpad/design-results",
+            "launchpad/searchable-attributes",
+            "launchpad/relevancy",
+            "launchpad/implement-search"
             ]
         }
       ]
